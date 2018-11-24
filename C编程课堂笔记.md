@@ -45,6 +45,20 @@ main()：函数名，这个main是不允许变名，main后跟着的小括号是
 
 ; - 除了define和include语句之外的语句末尾必须要有分号。
 
+for (int count = 0; count < 5; count++)
+  循环变量初始值为0；0 到 5 不含 5 共循环5次；变量++：先把变量赋值完毕后再加一再赋值给count
+  循环程序体：
+    myDigitalOutPC_13.write(HIGH); 这是一个对象myDigitalOutPC_13，其中包含一个write的方法
+    此处HIGH可以用1代替
+
+如果我们用1和0代替HIGH和LOW，则可以删除前两个定义
+
+对象名 myDigitalOutPC_13 都可以改成 LED，所有都要改。
+
+变量名 count 都可以改成 短一点的 i。
+
+LED.write(0) 可以改成 LED = 0;
+
 ### 如何缩进
 
 一般在左边大括号后回一个车，在for循环的函数体统统选定，按一下键盘的TAB键，让其整体向后缩进。
