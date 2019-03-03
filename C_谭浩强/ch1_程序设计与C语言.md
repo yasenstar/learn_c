@@ -9,4 +9,8 @@
 | 语言阶段 | 特点 |
 | ------ | ------ |
 | 机器语言 | 计算机能直接识别和接受的二进制代码成为机器指令 (machine instruction)，机器指令的集合就是机器语言 (machine language) |
-| 
+| 符号语言 | Symbolic Language，用一些英文字母和数字表示一个指令。由于计算机并不能直接识别和执行符号语言的指令，需要用一种称为汇编程序的软件把符号语言的指令转换为机器指令。转换的过程称为“代真”或“汇编”，因此，符号语言又称为符号汇编语言 (symbolic assembler language) 或汇编语言 (assembler language) |
+| 高级语言 | 程序中用到的语句和指令用英文单词表示，功能很强且不依赖于具体机器，对任何型号的计算机都适用，称为高级语言 (high level language)，高级语言需要用一种称为编译程序的软件将源程序(source program)转换为机器指令的程序-目标程序(object program)，然后让计算机执行并得到结果。高级语言经历了非结构化的语言（BASIC, FORTRAN, ALGOL等）、结构化语言（QBASIC, FORTRAN 77, C等）两个基于过程的语言阶段，到面向对象的语言（C++, C#, Visual Basic, Java）阶段。 |
+
+# 3. C语言的发展和特点
+
