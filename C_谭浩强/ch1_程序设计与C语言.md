@@ -38,3 +38,29 @@ int main()
     }
 ```
 
+使用QT来作为集成开发环境，默认是C++程序，如下创建一个新的项目，给程序命名为：text_print.cpp
+
+```
+#include <QCoreApplication>
+
+int main(int argc, char *argv[])
+{
+    QCoreApplication a(argc, argv);
+
+    printf("hello world\n");
+
+    printf("This is a C program.\n");
+
+    return a.exec();
+}
+```
+
+编译运行将会打开一个终端窗口，打印两行文本：
+
+```
+hello world
+This is a C program.
+```
+
+
+
