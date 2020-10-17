@@ -3,7 +3,7 @@
 // formula: pounds = 14 * stonds
 
 #include <iostream>
-float stonetolb(float);
+float stonetolb(float);     // function prototype
 
 int main()
 {
