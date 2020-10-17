@@ -19,5 +19,6 @@ int main()
 
 float stonetolb(float sts)
 {
-    return 14 * sts;
+    float pds = 14 * sts;
+    return pds;
 }
