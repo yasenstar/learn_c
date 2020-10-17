@@ -8,7 +8,7 @@ int main() {
     int age;
     cout << "Please input your age: ";
     cin >> age;
-    if (age <= 0 || age >= 150) {
+    if (age <= 0 || age >= 151) {
         cout << "invalid age!\n";
         return 0;
     }
