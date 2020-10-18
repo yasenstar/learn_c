@@ -11,5 +11,13 @@ int main() {
     cout << "Sam has " << sam << " dollars and Sue has " << sue << " dollars deposited." << endl;
     sam = sam + 1;
     sue = sue + 1;
+    cout << "Sam has " << sam << " dollars and Sue has " << sue << " dollars deposited.\nPoor Sam!" << endl;
+    
+    sam = ZERO;
+    sue = ZERO;
+    cout << "Sam has " << sam << " dollars and Sue has " << sue << " dollars deposited." << endl;
+    sam = sam - 1;
+    sue = sue - 1;
+    cout << "Sam has " << sam << " dollars and Sue has " << sue << " dollars deposited.\nLucky Sue!" << endl;
     return 0;
 }
