@@ -21,5 +21,7 @@ int main() {
     // using cout.put() to display a char content
     cout.put('!');
     cout << endl << "Done." << endl;
+    cout.put('\a');
+    cout.put('\v');
     return 0;
 }
