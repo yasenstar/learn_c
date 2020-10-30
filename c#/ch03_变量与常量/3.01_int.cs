@@ -1,3 +1,5 @@
+using System;
+
 static void Main(string[] args)
 {
     int ls = 927;
