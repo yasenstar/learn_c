@@ -10,7 +10,7 @@ static void Main(string[] args)
     Console.WriteLine("加法的结果为：{0} ", program.Add(3,5,7));
 }
 
-Main(null)；
+Main(null);
 
 /*
 (3,5): error CS0246: The type or namespace name `Program' could not be found. Are you missing an assembly reference?

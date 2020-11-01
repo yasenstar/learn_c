@@ -11,4 +11,4 @@ static void Main(string[] args)
         Console.WriteLine("\t" + dicEntry.Key + "\t" + dicEntry.Value);
     }
 }
-Main(null)；
+Main(null);
