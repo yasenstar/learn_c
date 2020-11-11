@@ -19,4 +19,4 @@ public class A                     //在命名空间N1中声明一个类A
     }
 }
 
-Main();
+Main(null);
