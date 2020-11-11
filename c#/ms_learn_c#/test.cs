@@ -1,8 +1,10 @@
-using systems;
+using System;
 
 static void Main(string[] args)
 {
-    Console.Writeline(5 / 10);
+    Console.WriteLine("Hello World! ");
+    Console.WriteLine(5 / 10);
+    Console.ReadLine();
 }
 
 Main(null);
